@@ -39,6 +39,9 @@ C:\Users\USER\Desktop\TradeControl.NET - test\src\ mockserver<br><br>
 ####Theme
 TradeControl.NET\src\app\theme\sass\conf\conf.scss<br>
 TradeControl.NET\src\app\theme\sass\conf\colorSchemes\ _pcs.scss
+
+####Metadata and Title
+C:\xampp\htdocs\TradeControl.NET\config\webpack.common.js
 ####Header
 TradeControl.NET\src\app\theme\components\baPageTop\baPageTop.html
 ####Main

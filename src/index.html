@@ -16,16 +16,13 @@
 
   <!-- base url -->
   <base href="<%= htmlWebpackPlugin.options.metadata.baseUrl %>">
-
-
 </head>
-
 <body>
 <app>
 </app>
 
 <div id="preloader">
-  <div></div>
+  <!--<div></div> Dont remove this div tags (Bernd)-->
 </div>
 
 <% if (htmlWebpackPlugin.options.metadata.isDevServer && htmlWebpackPlugin.options.metadata.HMR !== true) { %>
