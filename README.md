@@ -58,9 +58,9 @@ TradeControl.NET\src\app\pages\pages.routing.ts<br><br>
 <b>Import SCSS file for main theme:</b> TradeControl.NET-master\src\app\theme\theme.scss<br>
 <b>Varible SCSS file:</b> TradeControl.NET-master\src\app\theme\sass\conf\varibles.scss<br>
 <br>
-## SASS Boostrap 4 variable example in page folder
+## SASS Boostrap 4 variable example in page folder (demo.scss)
 <pre>
-<div class="container" style='hight:120px;'> 
+<div class="container" style='hight:90px;'> 
 
 @import '../../theme/sass/conf/variables';
 @media screen and (min-width: 1620px) {
