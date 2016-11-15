@@ -52,7 +52,7 @@ TradeControl.NET\src\app\pages\pages.routing.ts<br><br>
 <b>Import SCSS file for main theme:</b> TradeControl.NET-master\src\app\theme\theme.scss<br>
 <b>Varible SCSS file:</b> TradeControl.NET-master\src\app\theme\sass\conf\varibles.scss<br>
 <br>
-## SASS Bootstrap 4 variable example in page folder (demo.scss)
+### SASS Bootstrap 4 variable example in page folder (demo.scss)
 <pre>
 <div class="container" style='hight:90px;'> 
 
@@ -71,7 +71,7 @@ TradeControl.NET\src\app\pages\pages.routing.ts<br><br>
 </div>
 </pre>
 
-## INGREDIENTS
+## Ingredients
 ####Webpack:
 https://webpack.github.io/docs/configuration.html<br>
 ####Boostrap 4
@@ -107,7 +107,7 @@ http://ionicons.com/<br>
 *	tag A specific version tagged and published as tag See npm-tag
 *	path/path/path See Local Paths below
 
-## FEATURES
+## Features
 * TypeScript
 * Webpack
 * Responsive layout
