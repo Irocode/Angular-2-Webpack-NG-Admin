@@ -21,33 +21,27 @@ bernd.obendorfer@chello.at<br><br>
 ## Structure documentation 
 
 ### Assets
-
 #### Images 
 TradeControl.NET\src\assets\img<br>
 ####Icons
 TradeControl.NET\src\assets\icon<br>
 ####Fonts:
 TradeControl.NET\src\assets\fonts<br>
+### Others
 ####Uploads
 TradeControl.NET - test\src\uploads<br>
 ####Mockserver: (json Files)
 C:\Users\USER\Desktop\TradeControl.NET - test\src\ mockserver<br>
-
 ### Layout
-
 ####Theme
 TradeControl.NET\src\app\theme\sass\conf\conf.scss<br>
 TradeControl.NET\src\app\theme\sass\conf\colorSchemes\ _pcs.scss
-
 ####Header
 TradeControl.NET\src\app\theme\components\baPageTop\baPageTop.html
-
 ####Main
 TradeControl.NET\src\index.html
-
 ####Footer
 TradeControl.NET\src\app\pages\pages.component.ts
-
 ####Menu Routing
 TradeControl.NET\src\app\pages\pages.menu.ts<br>
 TradeControl.NET\src\app\pages\pages.routing.ts<br><br>
@@ -77,7 +71,7 @@ TradeControl.NET\src\app\pages\pages.routing.ts<br><br>
 </div>
 </pre>
 <br><br>
-# Ingredients
+## Ingredients
 ####Webpack:
 https://webpack.github.io/docs/configuration.html<br>
 ####Boostrap 4
@@ -94,7 +88,7 @@ http://fontawesome.io/icons/<br>
 http://ionicons.com/<br>
 
 
-# package.json
+## package.json
 *	version Must match version exactly
 *	>version Must be greater than version
 *	>=version etc
