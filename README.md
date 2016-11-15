@@ -77,21 +77,22 @@ TradeControl.NET\src\app\pages\pages.routing.ts<br><br>
 </div>
 </pre>
 <br><br>
-## Infos
-####Webpackage Config
-https://webpack.github.io/docs/configuration.html#node<br>
+# Ingredients
+####Webpack:
+https://webpack.github.io/docs/configuration.html<br>
 ####Boostrap 4
 https://hackerthemes.com/bootstrap-cheatsheet/<br>
-####Kendo UI
+####Kendo UI Angular 2:
 http://www.telerik.com/kendo-angular-ui/components/<br>
+####ng2-admin Angular 2:
+https://github.com/akveo/ng2-admin<br>
+####node-sass
+https://github.com/sass/node-sass<br>
 #### Icons
 http://www.socicon.com/chart.php<br>
 http://fontawesome.io/icons/<br>
 http://ionicons.com/<br>
 
-# Ingredients
-####electron-app:
-https://de.wikipedia.org/wiki/Electron_(Framework)
 
 # package.json
 *	version Must match version exactly
