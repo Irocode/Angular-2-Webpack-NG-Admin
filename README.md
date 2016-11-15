@@ -1,18 +1,18 @@
 # PCS framework Angular 2 and Bootstrap 4
 
-## Install 
+## INSTALL 
 npm install<br>
 
-###Dev Mode:
+####Dev Mode:
 npm start<br>
 http://localhost:3000/<br>
 
-###Prod Mode:
+####Prod Mode:
 npm run prebuild:prod && npm run build:prod && npm run server:prod<br>
 http://localhost:8080/<br><br>
 
 
-## Install additional Kendo UI classes
+## INSTALL additional Kendo UI classes
 $ npm login --registry=https://registry.npm.telerik.com/ --scope=@progress<br>
 User: irocode<br>
 Pass: bono9999<br>
@@ -20,19 +20,19 @@ bernd.obendorfer@chello.at<br><br>
  
 ## Structure documentation 
 
-### Assets
+### ASSETS
 #### Images 
 TradeControl.NET\src\assets\img<br>
 ####Icons
 TradeControl.NET\src\assets\icon<br>
 ####Fonts:
 TradeControl.NET\src\assets\fonts<br>
-### Others
+### OTHERS
 ####Uploads
 TradeControl.NET - test\src\uploads<br>
 ####Mockserver: (json Files)
 C:\Users\USER\Desktop\TradeControl.NET - test\src\ mockserver<br>
-### Layout
+### LAYOUT
 ####Theme
 TradeControl.NET\src\app\theme\sass\conf\conf.scss<br>
 TradeControl.NET\src\app\theme\sass\conf\colorSchemes\ _pcs.scss
@@ -71,7 +71,7 @@ TradeControl.NET\src\app\pages\pages.routing.ts<br><br>
 </div>
 </pre>
 <br><br>
-## Ingredients
+## INGREDIENTS
 ####Webpack:
 https://webpack.github.io/docs/configuration.html<br>
 ####Boostrap 4
@@ -107,7 +107,7 @@ http://ionicons.com/<br>
 *	tag A specific version tagged and published as tag See npm-tag
 *	path/path/path See Local Paths below
 
-## Features
+## FEATURES
 * TypeScript
 * Webpack
 * Responsive layout
