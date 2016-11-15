@@ -26,12 +26,12 @@ TradeControl.NET\src\assets\img<br>
 ####Icons
 TradeControl.NET\src\assets\icon<br>
 ####Fonts:
-TradeControl.NET\src\assets\fonts<br>
+TradeControl.NET\src\assets\fonts<br><br>
 ### OTHERS
 ####Uploads
 TradeControl.NET - test\src\uploads<br>
 ####Mockserver: (json Files)
-C:\Users\USER\Desktop\TradeControl.NET - test\src\ mockserver<br>
+C:\Users\USER\Desktop\TradeControl.NET - test\src\ mockserver<br><br>
 ### LAYOUT
 ####Theme
 TradeControl.NET\src\app\theme\sass\conf\conf.scss<br>
@@ -70,7 +70,7 @@ TradeControl.NET\src\app\pages\pages.routing.ts<br><br>
 }  
 </div>
 </pre>
-<br><br>
+
 ## INGREDIENTS
 ####Webpack:
 https://webpack.github.io/docs/configuration.html<br>
