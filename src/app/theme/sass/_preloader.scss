@@ -32,7 +32,7 @@
   width: 100%;
   height: 100%;
   z-index: 1003;
-  background: #000000;
+  background: #F0F3F4;
   & > div {
     display: block;
     position: relative;
@@ -55,7 +55,7 @@
       bottom: 5px;
       border-radius: 50%;
       border: 3px solid transparent;
-      border-top-color: $primary;
+      border-top-color: #fff;
       -webkit-animation: spin 3s linear infinite; /* Chrome, Opera 15+, Safari 5+ */
       animation: spin 3s linear infinite; /* Chrome, Firefox 16+, IE 10+, Opera */
     }
@@ -68,7 +68,7 @@
       bottom: 15px;
       border-radius: 50%;
       border: 3px solid transparent;
-      border-top-color: $warning;
+      border-top-color: #000;
       animation: spin 1.5s linear infinite; /* Chrome, Firefox 16+, IE 10+, Opera */
     }
   }

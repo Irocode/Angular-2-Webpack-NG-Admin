@@ -45,7 +45,9 @@ export class App {
   }
 
   private _loadImages(): void {
+       
     // register some loaders
-    BaThemePreloader.registerLoader(this._imageLoader.load(layoutPaths.images.root + 'sky-bg.jpg'));
+   // BaThemePreloader.registerLoader(this._imageLoader.load(layoutPaths.images.root + 'sky-bg.jpg'));
+
   }
 }
