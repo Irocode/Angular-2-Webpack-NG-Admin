@@ -1,3 +1,6 @@
+[![Logo](https://github.com/Irocode/TradeControl.NET/blob/master/src/assets/img/logo/logo2.png)](https://github.com/Irocode/TradeControl.NET/blob/master/src/assets/img/logo/logo2.png)
+
+
 # PCS framework Angular 2 and Bootstrap 4
 
 ## Install 
