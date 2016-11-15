@@ -1,4 +1,4 @@
-[![Logo](https://github.com/Irocode/TradeControl.NET/blob/master/src/assets/img/logo/logo.png)](https://github.com/Irocode/TradeControl.NET/blob/master/src/assets/img/logo/logo.png)
+[![Logo](https://github.com/Irocode/TradeControl.NET/blob/master/src/assets/img/logo/logolong.png)](https://github.com/Irocode/TradeControl.NET/blob/master/src/assets/img/logo/logolong.png)
 
 ## Install 
 $ npm install<br>
