@@ -1,18 +1,18 @@
 # PCS framework Angular 2 and Bootstrap 4
 
-## INSTALL 
-npm install<br>
+## Install 
+$ npm install<br>
 
 ####Dev Mode:
-npm start<br>
-http://localhost:3000/<br>
+$ npm start<br>
+http://localhost:3000/<br><br>
 
 ####Prod Mode:
 npm run prebuild:prod && npm run build:prod && npm run server:prod<br>
 http://localhost:8080/<br><br>
 
 
-## INSTALL additional Kendo UI classes
+## Install additional Kendo UI classes
 $ npm login --registry=https://registry.npm.telerik.com/ --scope=@progress<br>
 User: irocode<br>
 Pass: bono9999<br>
