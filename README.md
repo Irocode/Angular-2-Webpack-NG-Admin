@@ -111,7 +111,7 @@ https://de.wikipedia.org/wiki/Electron_(Framework)
 *	user/repo See 'GitHub URLs' below
 *	tag A specific version tagged and published as tag See npm-tag
 *	path/path/path See Local Paths below
-<br><br>
+
 ## Features
 * TypeScript
 * Webpack
