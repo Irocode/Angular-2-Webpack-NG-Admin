@@ -17,9 +17,12 @@ $ npm login --registry=https://registry.npm.telerik.com/ --scope=@progress<br>
 User: irocode<br>
 Pass: bono9999<br>
 bernd.obendorfer@chello.at<br><br>
+
+For Example:<br>
+Add this package http://www.telerik.com/kendo-angular-ui/components/charts/<br>
+$ npm install --save @progress/kendo-angular-charts
  
 ## Structure documentation 
-
 ### ASSETS
 #### Images 
 TradeControl.NET\src\assets\img<br>
