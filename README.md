@@ -8,7 +8,7 @@ $ npm start<br>
 http://localhost:3000/<br><br>
 
 ####Prod Mode:
-npm run prebuild:prod && npm run build:prod && npm run server:prod<br>
+$ npm run prebuild:prod && npm run build:prod && npm run server:prod<br>
 http://localhost:8080/<br><br>
 
 
@@ -16,11 +16,11 @@ http://localhost:8080/<br><br>
 $ npm login --registry=https://registry.npm.telerik.com/ --scope=@progress<br>
 User: irocode<br>
 Pass: bono9999<br>
-bernd.obendorfer@chello.at<br><br>
+bernd.obendorfer@chello.at<br>
 
 For Example:<br>
 Add this package http://www.telerik.com/kendo-angular-ui/components/charts/<br>
-$ npm install --save @progress/kendo-angular-charts
+$ npm install --save @progress/kendo-angular-charts<br>
  
 ## Structure documentation 
 ### ASSETS
@@ -53,7 +53,7 @@ TradeControl.NET\src\app\pages\pages.routing.ts<br><br>
 <b>Guide:</b> http://sass-lang.com/guide<br>
 <b>Reinitialization:</b> npm rebuild node-sass ()<br>
 <b>Import SCSS file for main theme:</b> TradeControl.NET-master\src\app\theme\theme.scss<br>
-<b>Varible SCSS file:</b> TradeControl.NET-master\src\app\theme\sass\conf\varibles.scss<br>
+<b>Variable SCSS file:</b> TradeControl.NET-master\src\app\theme\sass\conf\varibles.scss<br>
 <br>
 ### SASS Bootstrap 4 variable example in page folder (demo.scss)
 <pre>
