@@ -52,13 +52,13 @@ TradeControl.NET\src\app\pages\pages.component.ts
 TradeControl.NET\src\app\pages\pages.menu.ts<br>
 TradeControl.NET\src\app\pages\pages.routing.ts<br><br>
 
-## SASS 
+## Sass 
 <b>Guide:</b> http://sass-lang.com/guide<br>
 <b>Reinitialization:</b> npm rebuild node-sass ()<br>
 <b>Import SCSS file for main theme:</b> TradeControl.NET-master\src\app\theme\theme.scss<br>
 <b>Variable SCSS file:</b> TradeControl.NET-master\src\app\theme\sass\conf\varibles.scss<br>
 <br>
-### SASS Bootstrap 4 variable example in page folder (demo.scss)
+### Sass Bootstrap 4 variable example in page folder (demo.scss)
 <pre>
 <div class="container" style='hight:90px;'> 
 
@@ -122,4 +122,4 @@ http://ionicons.com/<br>
 * Sass
 * Angular 2
 * jQuery
-* KendoUI Angular2
+* Kendo UI Angular2
