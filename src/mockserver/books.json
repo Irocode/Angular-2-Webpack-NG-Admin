@@ -1,0 +1,5 @@
+[
+  { "title": "Hitchhiker's Guide to the Galaxy",  "id": "1", "piclink": "../../../data/1.png", "email": "bernd@chello.at" },
+  { "title": "The Fellowship of the Ring",  "id": "2", "piclink": "../../../data/1.png", "email": "robert@chello.at"  },
+  { "title": "Moby Dick",  "id": "3", "piclink": "../../../data/1.png", "email": "vera@chello.at"  }
+]

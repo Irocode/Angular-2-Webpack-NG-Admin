@@ -1,0 +1,168 @@
+
+<div class="row">
+   <div class="col-md-12">
+Instruction:  <a href="http://www.telerik.com/kendo-angular-ui" target="_blank">Kendo UI</a>
+      <hr>
+   </div>
+</div>
+<div class="row">
+   <div class="col-md-12">
+      <br>
+      <div class="panelbar-wrapper">
+         <kendo-panelbar>
+            <kendo-panelbar-item title="Golf" [imageUrl]="sportsIconUrl('golf')">
+               <kendo-panelbar-item title="Top News" [imageUrl]="iconUrl('star')"></kendo-panelbar-item>
+               <kendo-panelbar-item title="Photo Galleries" [imageUrl]="iconUrl('photo')"></kendo-panelbar-item>
+               <kendo-panelbar-item title="Video Records" [imageUrl]="iconUrl('video')"></kendo-panelbar-item>
+               <kendo-panelbar-item title="Radio Records" [imageUrl]="iconUrl('speaker')"></kendo-panelbar-item>
+            </kendo-panelbar-item>
+            <kendo-panelbar-item title="Baseball" [imageUrl]="sportsIconUrl('baseball')">
+               <kendo-panelbar-item title="Top News" [imageUrl]="iconUrl('star')"></kendo-panelbar-item>
+               <kendo-panelbar-item title="Photo Galleries" [imageUrl]="iconUrl('photo')"></kendo-panelbar-item>
+               <kendo-panelbar-item title="Video Records" [imageUrl]="iconUrl('video')"></kendo-panelbar-item>
+               <kendo-panelbar-item title="Radio Records" [imageUrl]="iconUrl('speaker')"></kendo-panelbar-item>
+            </kendo-panelbar-item>
+            <kendo-panelbar-item title="Swimming" [imageUrl]="sportsIconUrl('swimming')">
+               <kendo-panelbar-item title="Top News" [imageUrl]="iconUrl('star')"></kendo-panelbar-item>
+               <kendo-panelbar-item title="Photo Galleries" [imageUrl]="iconUrl('photo')"></kendo-panelbar-item>
+            </kendo-panelbar-item>
+            <kendo-panelbar-item title="Snowboarding" [imageUrl]="sportsIconUrl('snowboarding')">
+               <kendo-panelbar-item title="Photo Galleries" [imageUrl]="iconUrl('photo')"></kendo-panelbar-item>
+               <kendo-panelbar-item title="Video Records" [imageUrl]="iconUrl('video')"></kendo-panelbar-item>
+            </kendo-panelbar-item>
+         </kendo-panelbar>
+      </div>
+      <br>
+      <hr>
+   </div>
+</div>
+<div class="row">
+   <div class="col-md-12">
+      <h1>PCS Kendo</h1>
+      <br>
+      <div>
+         <kendo-sortable [data] = "palettes"
+         [itemStyle] = "{'float':'left', 'display': 'inline-block', 'width': '125px', 'color': item,
+         'background-color': '#fffaed', 'margin': '4px' , 'border': '1px solid black', 'cursor': 'move'}" >
+         <template let-palette="item">
+            {{palette.name}}
+            <br/><br/>
+            <div [ngStyle]="{'width' : '120px'}">
+               <kendo-sortable [data]="palette.data"
+               [zone] = "'innerZone'"
+               [itemStyle] = "{'border': '0px', 'opacity':'1', 'cursor': 'move'}"
+               [emptyItemStyle] = "{'height': '30px', 'border': '2px dashed black'}"
+               [activeItemStyle] = "{'border': '2px dashed black', 'opacity':'0.7'}" >
+               <template let-item="item">
+                  <div [ngStyle]="{'background-color': item,'color': 'white',
+                     'height': '30px', 'margin' : '2px', 'border': '1px solid black'}" >
+                     {{item}}
+                  </div>
+               </template>
+               </kendo-sortable>
+            </div>
+         </template>
+         </kendo-sortable>
+      </div>
+      <br>
+      <hr>
+   </div>
+</div>
+<br>
+<div class="row">
+   <div class="col-md-12">
+      <kendo-sortable
+      [data]="items"
+      [itemStyle] = "demoItemStyle"
+      [activeItemStyle] = "activeStyle">
+      </kendo-sortable>
+      <br>
+      <hr>
+   </div>
+</div>
+
+<hr>
+<br>
+<kendo-tabstrip>
+   <kendo-tabstrip-tab [title]="'tab1'">
+      <template kendoTabContent>
+         <span class="rainy">&nbsp;</span>
+         <div class="weather">
+            <h2>17<span>&ordm;C</span></h2>
+            <p>Rainy weather in Paris.</p>
+         </div>
+      </template>
+   </kendo-tabstrip-tab>
+   <kendo-tabstrip-tab [title]="'tab1'">
+      <template kendoTabContent>
+         <span class="sunny">&nbsp;</span>
+         <div class="weather">
+            <h2>29<span>&ordm;C</span></h2>
+            <p>Sunny weather in New York.</p>
+         </div>
+      </template>
+   </kendo-tabstrip-tab>
+</kendo-tabstrip>
+<br>
+<hr>
+<br>
+<div class="panelbar-wrapper">
+   <kendo-panelbar>
+      <kendo-panelbar-item title="My Teammates" expanded="true">
+         <kendo-panelbar-content>
+            <div [class]="teamMateGroup">
+               <div class="teamMate">
+                  <img [src]="imageUrl('andrew')" alt="Andrew Fuller" width="72" height="72">
+                  <h2>Andrew Fuller</h2>
+                  <p>Team Lead</p>
+               </div>
+               <div class="teamMate">
+                  <img [src]="imageUrl('nancy')" alt="Nancy Leverling" width="72" height="72">
+                  <h2>Nancy Leverling</h2>
+                  <p>Sales Associate</p>
+               </div>
+               <div class="teamMate">
+                  <img [src]="imageUrl('robert')" alt="Robert King" width="72" height="72">
+                  <h2>Robert King</h2>
+                  <p>Business System Analyst</p>
+               </div>
+            </div>
+         </kendo-panelbar-content>
+      </kendo-panelbar-item>
+      <kendo-panelbar-item title="Projects">
+         <kendo-panelbar-item title="New Business Plan"></kendo-panelbar-item>
+         <kendo-panelbar-item title="Sales Forecasts">
+            <kendo-panelbar-item title="Q1 Forecast"></kendo-panelbar-item>
+            <kendo-panelbar-item title="Q2 Forecast"></kendo-panelbar-item>
+            <kendo-panelbar-item title="Q3 Forecast"></kendo-panelbar-item>
+            <kendo-panelbar-item title="Q4 Forecast"></kendo-panelbar-item>
+         </kendo-panelbar-item>
+         <kendo-panelbar-item title="Sales Reports"></kendo-panelbar-item>
+      </kendo-panelbar-item>
+      <kendo-panelbar-item title="Programs">
+         <kendo-panelbar-item title="Monday"></kendo-panelbar-item>
+         <kendo-panelbar-item title="Tuesday"></kendo-panelbar-item>
+         <kendo-panelbar-item title="Wednesday"></kendo-panelbar-item>
+         <kendo-panelbar-item title="Thursday"></kendo-panelbar-item>
+         <kendo-panelbar-item title="Friday"></kendo-panelbar-item>
+      </kendo-panelbar-item>
+      <kendo-panelbar-item title="Communication" disabled="true"></kendo-panelbar-item>
+   </kendo-panelbar>
+</div>
+<br>
+<hr>
+<br>
+<kendo-grid [data]="gridData">
+   <kendo-grid-column field="ProductID" title="Product ID" width="120">
+   </kendo-grid-column>
+   <kendo-grid-column field="ProductName" title="Product Name">
+   </kendo-grid-column>
+   <kendo-grid-column field="UnitPrice" title="Unit Price" width="230">
+   </kendo-grid-column>
+   <kendo-grid-column field="Discontinued" width="120">
+      <template kendoCellTemplate let-dataItem>
+         <input type="checkbox" [checked]="dataItem.Discontinued" disabled/>
+      </template>
+   </kendo-grid-column>
+</kendo-grid>
+<hr>

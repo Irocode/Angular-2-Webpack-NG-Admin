@@ -1,0 +1,5 @@
+[
+  { "title": "Bild 1",  "id": "1", "piclink": "../../../data/1.png" },
+  { "title": "Bild 2",  "id": "2", "piclink": "../../../data/2.png"  },
+  { "title": "Bild 3",  "id": "3", "piclink": "../../../data/3.png"  }
+]
